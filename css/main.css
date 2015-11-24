@@ -1,0 +1,90 @@
+body {
+	background: linear-gradient(blue, transparent 90%),
+   linear-gradient(#fff, transparent 60%),
+   url(https://images.unsplash.com/photo-1443453489887-98f56bc5bb38?fit=crop&fm=jpg&h=600&ixjsv=2.0.0&ixlib=rb-0.3.5&q=80&w=13753-78ecf14da7f9?q=80&fm=jpg&s=643e44f5177366de6cc914c8bcfbe064) center center;
+	background-size: cover;
+  background-repeat: no-repeat;
+  height: 40em;
+
+}
+
+h1 {
+	color: white;
+	margin: 0 auto;
+	padding-right: auto;
+	padding-left: auto;
+	padding-top: 30px;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 60px
+}
+
+#addButton {
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	color: blue;
+	width: 80px
+}
+
+ #listItem {
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	color: blue;
+	width: 10%
+}
+
+#amount {
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	color: blue;
+	width: 40px;
+}
+
+
+p {
+	color: white;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+
+div {  
+	margin: 0 auto;
+	text-align: center;
+}
+
+#shoppingList ul {
+	color: black;
+	font-style: italic;
+	background-color: white;
+	width: 30%;
+	list-style-type: none;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 15px;
+	display: block;
+	position: relative;
+	font-family: 'Indie Flower', cursive;
+	text-decoration: none;
+}
+
+#shoppingList li {
+	line-height: 40px;
+	margin-top: 15px;
+	font-size: 30px;
+}
+
+
+.delete {
+	color: red;
+	padding-left: 50px;
+	text-decoration: none;
+	font: 30px;
+	font-style: bold;
+}
+
+.complete {
+	color: darkgreen;
+	text-decoration: none;
+	padding-left: 50px
+}
